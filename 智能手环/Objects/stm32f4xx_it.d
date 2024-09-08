@@ -1,0 +1,19 @@
+.\objects\stm32f4xx_it.o: user\stm32f4xx_it.c
+.\objects\stm32f4xx_it.o: user\stm32f4xx_it.h
+.\objects\stm32f4xx_it.o: user\stm32f4xx.h
+.\objects\stm32f4xx_it.o: user\core_cm4.h
+.\objects\stm32f4xx_it.o: D:\Study App\keil\anzhuang\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_it.o: .\user\core_cmInstr.h
+.\objects\stm32f4xx_it.o: .\user\core_cmFunc.h
+.\objects\stm32f4xx_it.o: .\user\core_cm4_simd.h
+.\objects\stm32f4xx_it.o: user\system_stm32f4xx.h
+.\objects\stm32f4xx_it.o: user\main.h
+.\objects\stm32f4xx_it.o: .\api\led.h
+.\objects\stm32f4xx_it.o: .\api\delay.h
+.\objects\stm32f4xx_it.o: .\api\oled.h
+.\objects\stm32f4xx_it.o: .\hp_6\iic.h
+.\objects\stm32f4xx_it.o: .\api\usart.h
+.\objects\stm32f4xx_it.o: .\api\sht20.h
+.\objects\stm32f4xx_it.o: .\api\rtc.h
+.\objects\stm32f4xx_it.o: .\hp_6\hp6.h
+.\objects\stm32f4xx_it.o: .\api\mpu6050.h
