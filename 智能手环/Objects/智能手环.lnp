@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp
+".\objects\startup_stm32f411xe.o"
+".\objects\stm32f4xx_it.o"
+".\objects\system_stm32f4xx.o"
+".\objects\main.o"
+".\objects\sys.o"
+".\objects\delay.o"
+".\objects\led.o"
+".\objects\oled.o"
+".\objects\font_16x16.o"
+".\objects\sht20.o"
+".\objects\usart.o"
+".\objects\rtc.o"
+".\objects\mpu6050.o"
+".\objects\hp6.o"
+".\objects\iic.o"
+--library_type=microlib --strict --scatter ".\Objects\智能手环.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\智能手环.map" -o .\Objects\智能手环.axf
